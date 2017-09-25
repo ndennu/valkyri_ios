@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036964451F1BC4E600409520 /* DetailRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036964431F1BC4E600409520 /* DetailRoomViewController.m */; };
+		036964461F1BC4E600409520 /* DetailRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036964441F1BC4E600409520 /* DetailRoomViewController.xib */; };
+		0369644B1F1BCC6200409520 /* DetailAccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036964491F1BCC6200409520 /* DetailAccessViewController.m */; };
+		0369644C1F1BCC6200409520 /* DetailAccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0369644A1F1BCC6200409520 /* DetailAccessViewController.xib */; };
+		0369644E1F23A1B100409520 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0369644D1F23A1B100409520 /* MenuViewController.xib */; };
+		0397B2E11F13D52F008A93B7 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B2DF1F13D52F008A93B7 /* MenuViewController.m */; };
+		0397B2E81F13D5CD008A93B7 /* IssueTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B2E61F13D5CD008A93B7 /* IssueTableViewCell.m */; };
+		0397B2E91F13D5CD008A93B7 /* IssueTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0397B2E71F13D5CD008A93B7 /* IssueTableViewCell.xib */; };
+		0397B2EE1F13D5E5008A93B7 /* IssueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B2EC1F13D5E5008A93B7 /* IssueViewController.m */; };
+		0397B2EF1F13D5E5008A93B7 /* IssueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0397B2ED1F13D5E5008A93B7 /* IssueViewController.xib */; };
+		0397B2F41F13D5FC008A93B7 /* DetailIssueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B2F21F13D5FC008A93B7 /* DetailIssueViewController.m */; };
+		0397B2F51F13D5FC008A93B7 /* DetailIssueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0397B2F31F13D5FC008A93B7 /* DetailIssueViewController.xib */; };
+		0397B2FB1F13D630008A93B7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B2F91F13D630008A93B7 /* LoginViewController.m */; };
+		0397B2FC1F13D630008A93B7 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0397B2FA1F13D630008A93B7 /* LoginViewController.xib */; };
+		0397B2FF1F13D650008A93B7 /* AccountDatalayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B2FE1F13D650008A93B7 /* AccountDatalayer.m */; };
+		0397B3031F13D66D008A93B7 /* LevelDatalayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B3021F13D66D008A93B7 /* LevelDatalayer.m */; };
+		0397B3081F13D691008A93B7 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B3071F13D691008A93B7 /* Level.m */; };
+		0397B30B1F13D697008A93B7 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B30A1F13D697008A93B7 /* Account.m */; };
+		0397B3231F13D73D008A93B7 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B3221F13D73D008A93B7 /* Tools.m */; };
+		0397B32D1F13D7F9008A93B7 /* AccessCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B32B1F13D7F9008A93B7 /* AccessCellTableViewCell.m */; };
+		0397B32E1F13D7F9008A93B7 /* AccessCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0397B32C1F13D7F9008A93B7 /* AccessCellTableViewCell.xib */; };
+		0397B3331F13D80E008A93B7 /* AccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B3311F13D80E008A93B7 /* AccessViewController.m */; };
+		0397B3341F13D80E008A93B7 /* AccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0397B3321F13D80E008A93B7 /* AccessViewController.xib */; };
+		0397B3381F13D83A008A93B7 /* HistoryDataLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B3371F13D83A008A93B7 /* HistoryDataLayer.m */; };
+		0397B3401F13D8A8008A93B7 /* LevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B33E1F13D8A8008A93B7 /* LevelViewController.m */; };
+		0397B3411F13D8A8008A93B7 /* LevelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0397B33F1F13D8A8008A93B7 /* LevelViewController.xib */; };
+		0397B3451F13D8AF008A93B7 /* LevelDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B3431F13D8AF008A93B7 /* LevelDetails.m */; };
+		0397B3461F13D8AF008A93B7 /* LevelDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0397B3441F13D8AF008A93B7 /* LevelDetails.xib */; };
+		0397B34A1F13D8B7008A93B7 /* LevelViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B3481F13D8B7008A93B7 /* LevelViewCell.m */; };
+		0397B34B1F13D8B7008A93B7 /* LevelViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0397B3491F13D8B7008A93B7 /* LevelViewCell.xib */; };
+		0397B34F1F13D924008A93B7 /* History.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B34E1F13D924008A93B7 /* History.m */; };
+		0397B3551F13D95D008A93B7 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B3531F13D95D008A93B7 /* SettingsViewController.m */; };
+		0397B3561F13D95D008A93B7 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0397B3541F13D95D008A93B7 /* SettingsViewController.xib */; };
+		0397B3691F13E28A008A93B7 /* RoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B3671F13E28A008A93B7 /* RoomViewController.m */; };
+		0397B36A1F13E28A008A93B7 /* RoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0397B3681F13E28A008A93B7 /* RoomViewController.xib */; };
+		0397B36E1F150233008A93B7 /* RoomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B36C1F150233008A93B7 /* RoomTableViewCell.m */; };
+		0397B36F1F150233008A93B7 /* RoomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0397B36D1F150233008A93B7 /* RoomTableViewCell.xib */; };
+		0397B3731F15031A008A93B7 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B3721F15031A008A93B7 /* Room.m */; };
+		0397B3771F150949008A93B7 /* RoomDatalayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B3761F150949008A93B7 /* RoomDatalayer.m */; };
+		0397B37B1F151F22008A93B7 /* AccessDatalayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B37A1F151F22008A93B7 /* AccessDatalayer.m */; };
+		0397B37F1F151F4A008A93B7 /* Access.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397B37E1F151F4A008A93B7 /* Access.m */; };
+		05116BCC1F22536D0020A0FA /* UserInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 05116BCB1F22536D0020A0FA /* UserInformation.m */; };
+		05116BD01F2255F40020A0FA /* AuthDataLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 05116BCF1F2255F40020A0FA /* AuthDataLayer.m */; };
+		05116BD61F23427D0020A0FA /* ConfigDatalayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 05116BD51F23427D0020A0FA /* ConfigDatalayer.m */; };
+		05116BDA1F2353290020A0FA /* PasswordUpdatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05116BD81F2353290020A0FA /* PasswordUpdatingViewController.m */; };
+		05116BDB1F2353290020A0FA /* PasswordUpdatingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05116BD91F2353290020A0FA /* PasswordUpdatingViewController.xib */; };
+		05116BDF1F2353710020A0FA /* DigicodeUpdatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05116BDD1F2353710020A0FA /* DigicodeUpdatingViewController.m */; };
+		05116BE01F2353710020A0FA /* DigicodeUpdatingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05116BDE1F2353710020A0FA /* DigicodeUpdatingViewController.xib */; };
+		0582B0251ECF8D7500E2A108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0582B0241ECF8D7500E2A108 /* main.m */; };
+		0582B0281ECF8D7500E2A108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0582B0271ECF8D7500E2A108 /* AppDelegate.m */; };
+		0582B0301ECF8D7500E2A108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0582B02F1ECF8D7500E2A108 /* Assets.xcassets */; };
+		0582B0331ECF8D7500E2A108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0582B0311ECF8D7500E2A108 /* LaunchScreen.storyboard */; };
+		05D3F59B1F2541B70014242B /* UserImageSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D3F5991F2541B70014242B /* UserImageSelectionViewController.m */; };
+		05D3F59C1F2541B70014242B /* UserImageSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05D3F59A1F2541B70014242B /* UserImageSelectionViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		036964421F1BC4E600409520 /* DetailRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailRoomViewController.h; sourceTree = "<group>"; };
+		036964431F1BC4E600409520 /* DetailRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailRoomViewController.m; sourceTree = "<group>"; };
+		036964441F1BC4E600409520 /* DetailRoomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailRoomViewController.xib; sourceTree = "<group>"; };
+		036964481F1BCC6200409520 /* DetailAccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailAccessViewController.h; sourceTree = "<group>"; };
+		036964491F1BCC6200409520 /* DetailAccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailAccessViewController.m; sourceTree = "<group>"; };
+		0369644A1F1BCC6200409520 /* DetailAccessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailAccessViewController.xib; sourceTree = "<group>"; };
+		0369644D1F23A1B100409520 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		0397B2DE1F13D52F008A93B7 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		0397B2DF1F13D52F008A93B7 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		0397B2E51F13D5CD008A93B7 /* IssueTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssueTableViewCell.h; sourceTree = "<group>"; };
+		0397B2E61F13D5CD008A93B7 /* IssueTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssueTableViewCell.m; sourceTree = "<group>"; };
+		0397B2E71F13D5CD008A93B7 /* IssueTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IssueTableViewCell.xib; sourceTree = "<group>"; };
+		0397B2EB1F13D5E5008A93B7 /* IssueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssueViewController.h; sourceTree = "<group>"; };
+		0397B2EC1F13D5E5008A93B7 /* IssueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssueViewController.m; sourceTree = "<group>"; };
+		0397B2ED1F13D5E5008A93B7 /* IssueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IssueViewController.xib; sourceTree = "<group>"; };
+		0397B2F11F13D5FC008A93B7 /* DetailIssueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailIssueViewController.h; sourceTree = "<group>"; };
+		0397B2F21F13D5FC008A93B7 /* DetailIssueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailIssueViewController.m; sourceTree = "<group>"; };
+		0397B2F31F13D5FC008A93B7 /* DetailIssueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailIssueViewController.xib; sourceTree = "<group>"; };
+		0397B2F81F13D630008A93B7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0397B2F91F13D630008A93B7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0397B2FA1F13D630008A93B7 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		0397B2FD1F13D650008A93B7 /* AccountDatalayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountDatalayer.h; sourceTree = "<group>"; };
+		0397B2FE1F13D650008A93B7 /* AccountDatalayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountDatalayer.m; sourceTree = "<group>"; };
+		0397B3011F13D66D008A93B7 /* LevelDatalayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelDatalayer.h; sourceTree = "<group>"; };
+		0397B3021F13D66D008A93B7 /* LevelDatalayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelDatalayer.m; sourceTree = "<group>"; };
+		0397B3061F13D691008A93B7 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		0397B3071F13D691008A93B7 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		0397B3091F13D697008A93B7 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		0397B30A1F13D697008A93B7 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		0397B3211F13D73D008A93B7 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		0397B3221F13D73D008A93B7 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		0397B32A1F13D7F9008A93B7 /* AccessCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessCellTableViewCell.h; sourceTree = "<group>"; };
+		0397B32B1F13D7F9008A93B7 /* AccessCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessCellTableViewCell.m; sourceTree = "<group>"; };
+		0397B32C1F13D7F9008A93B7 /* AccessCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccessCellTableViewCell.xib; sourceTree = "<group>"; };
+		0397B3301F13D80E008A93B7 /* AccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessViewController.h; sourceTree = "<group>"; };
+		0397B3311F13D80E008A93B7 /* AccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessViewController.m; sourceTree = "<group>"; };
+		0397B3321F13D80E008A93B7 /* AccessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccessViewController.xib; sourceTree = "<group>"; };
+		0397B3361F13D83A008A93B7 /* HistoryDataLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryDataLayer.h; sourceTree = "<group>"; };
+		0397B3371F13D83A008A93B7 /* HistoryDataLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryDataLayer.m; sourceTree = "<group>"; };
+		0397B33D1F13D8A8008A93B7 /* LevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelViewController.h; sourceTree = "<group>"; };
+		0397B33E1F13D8A8008A93B7 /* LevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelViewController.m; sourceTree = "<group>"; };
+		0397B33F1F13D8A8008A93B7 /* LevelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelViewController.xib; sourceTree = "<group>"; };
+		0397B3421F13D8AF008A93B7 /* LevelDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelDetails.h; sourceTree = "<group>"; };
+		0397B3431F13D8AF008A93B7 /* LevelDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelDetails.m; sourceTree = "<group>"; };
+		0397B3441F13D8AF008A93B7 /* LevelDetails.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelDetails.xib; sourceTree = "<group>"; };
+		0397B3471F13D8B7008A93B7 /* LevelViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelViewCell.h; sourceTree = "<group>"; };
+		0397B3481F13D8B7008A93B7 /* LevelViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelViewCell.m; sourceTree = "<group>"; };
+		0397B3491F13D8B7008A93B7 /* LevelViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelViewCell.xib; sourceTree = "<group>"; };
+		0397B34D1F13D924008A93B7 /* History.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = History.h; sourceTree = "<group>"; };
+		0397B34E1F13D924008A93B7 /* History.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = History.m; sourceTree = "<group>"; };
+		0397B3521F13D95D008A93B7 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		0397B3531F13D95D008A93B7 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		0397B3541F13D95D008A93B7 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		0397B3661F13E28A008A93B7 /* RoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomViewController.h; sourceTree = "<group>"; };
+		0397B3671F13E28A008A93B7 /* RoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomViewController.m; sourceTree = "<group>"; };
+		0397B3681F13E28A008A93B7 /* RoomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoomViewController.xib; sourceTree = "<group>"; };
+		0397B36B1F150233008A93B7 /* RoomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomTableViewCell.h; sourceTree = "<group>"; };
+		0397B36C1F150233008A93B7 /* RoomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomTableViewCell.m; sourceTree = "<group>"; };
+		0397B36D1F150233008A93B7 /* RoomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoomTableViewCell.xib; sourceTree = "<group>"; };
+		0397B3711F15031A008A93B7 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		0397B3721F15031A008A93B7 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		0397B3751F150949008A93B7 /* RoomDatalayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomDatalayer.h; sourceTree = "<group>"; };
+		0397B3761F150949008A93B7 /* RoomDatalayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomDatalayer.m; sourceTree = "<group>"; };
+		0397B3791F151F22008A93B7 /* AccessDatalayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessDatalayer.h; sourceTree = "<group>"; };
+		0397B37A1F151F22008A93B7 /* AccessDatalayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessDatalayer.m; sourceTree = "<group>"; };
+		0397B37D1F151F4A008A93B7 /* Access.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Access.h; sourceTree = "<group>"; };
+		0397B37E1F151F4A008A93B7 /* Access.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Access.m; sourceTree = "<group>"; };
+		05116BCA1F22536D0020A0FA /* UserInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInformation.h; sourceTree = "<group>"; };
+		05116BCB1F22536D0020A0FA /* UserInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInformation.m; sourceTree = "<group>"; };
+		05116BCE1F2255F40020A0FA /* AuthDataLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AuthDataLayer.h; path = auth/AuthDataLayer.h; sourceTree = "<group>"; };
+		05116BCF1F2255F40020A0FA /* AuthDataLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AuthDataLayer.m; path = auth/AuthDataLayer.m; sourceTree = "<group>"; };
+		05116BD41F23427D0020A0FA /* ConfigDatalayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigDatalayer.h; sourceTree = "<group>"; };
+		05116BD51F23427D0020A0FA /* ConfigDatalayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigDatalayer.m; sourceTree = "<group>"; };
+		05116BD71F2353290020A0FA /* PasswordUpdatingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordUpdatingViewController.h; sourceTree = "<group>"; };
+		05116BD81F2353290020A0FA /* PasswordUpdatingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordUpdatingViewController.m; sourceTree = "<group>"; };
+		05116BD91F2353290020A0FA /* PasswordUpdatingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordUpdatingViewController.xib; sourceTree = "<group>"; };
+		05116BDC1F2353710020A0FA /* DigicodeUpdatingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigicodeUpdatingViewController.h; sourceTree = "<group>"; };
+		05116BDD1F2353710020A0FA /* DigicodeUpdatingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DigicodeUpdatingViewController.m; sourceTree = "<group>"; };
+		05116BDE1F2353710020A0FA /* DigicodeUpdatingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DigicodeUpdatingViewController.xib; sourceTree = "<group>"; };
+		0582B0201ECF8D7500E2A108 /* Valkyri_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Valkyri_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0582B0241ECF8D7500E2A108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0582B0261ECF8D7500E2A108 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0582B0271ECF8D7500E2A108 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0582B02F1ECF8D7500E2A108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0582B0321ECF8D7500E2A108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0582B0341ECF8D7500E2A108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05D3F5981F2541B70014242B /* UserImageSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserImageSelectionViewController.h; sourceTree = "<group>"; };
+		05D3F5991F2541B70014242B /* UserImageSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserImageSelectionViewController.m; sourceTree = "<group>"; };
+		05D3F59A1F2541B70014242B /* UserImageSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserImageSelectionViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0582B01D1ECF8D7500E2A108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036964471F1BCC3E00409520 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				036964481F1BCC6200409520 /* DetailAccessViewController.h */,
+				036964491F1BCC6200409520 /* DetailAccessViewController.m */,
+				0369644A1F1BCC6200409520 /* DetailAccessViewController.xib */,
+			);
+			name = detail;
+			sourceTree = "<group>";
+		};
+		0397B2D61F13D395008A93B7 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				0397B2D71F13D3A1008A93B7 /* controller */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		0397B2D71F13D3A1008A93B7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0369644D1F23A1B100409520 /* MenuViewController.xib */,
+				0397B2DE1F13D52F008A93B7 /* MenuViewController.h */,
+				0397B2DF1F13D52F008A93B7 /* MenuViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0397B2DD1F13D3D3008A93B7 /* account */ = {
+			isa = PBXGroup;
+			children = (
+				0397B2FD1F13D650008A93B7 /* AccountDatalayer.h */,
+				0397B2FE1F13D650008A93B7 /* AccountDatalayer.m */,
+			);
+			path = account;
+			sourceTree = "<group>";
+		};
+		0397B2E31F13D5AB008A93B7 /* issue */ = {
+			isa = PBXGroup;
+			children = (
+				0397B2E41F13D5BD008A93B7 /* cell */,
+				0397B2EA1F13D5D2008A93B7 /* controller */,
+				0397B2F01F13D5E9008A93B7 /* detail */,
+			);
+			path = issue;
+			sourceTree = "<group>";
+		};
+		0397B2E41F13D5BD008A93B7 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				0397B2E51F13D5CD008A93B7 /* IssueTableViewCell.h */,
+				0397B2E61F13D5CD008A93B7 /* IssueTableViewCell.m */,
+				0397B2E71F13D5CD008A93B7 /* IssueTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		0397B2EA1F13D5D2008A93B7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0397B2EB1F13D5E5008A93B7 /* IssueViewController.h */,
+				0397B2EC1F13D5E5008A93B7 /* IssueViewController.m */,
+				0397B2ED1F13D5E5008A93B7 /* IssueViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0397B2F01F13D5E9008A93B7 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				0397B2F11F13D5FC008A93B7 /* DetailIssueViewController.h */,
+				0397B2F21F13D5FC008A93B7 /* DetailIssueViewController.m */,
+				0397B2F31F13D5FC008A93B7 /* DetailIssueViewController.xib */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
+		0397B2F61F13D60D008A93B7 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				0397B2F71F13D61B008A93B7 /* controller */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		0397B2F71F13D61B008A93B7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0397B2F81F13D630008A93B7 /* LoginViewController.h */,
+				0397B2FA1F13D630008A93B7 /* LoginViewController.xib */,
+				0397B2F91F13D630008A93B7 /* LoginViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0397B3001F13D655008A93B7 /* level */ = {
+			isa = PBXGroup;
+			children = (
+				0397B3011F13D66D008A93B7 /* LevelDatalayer.h */,
+				0397B3021F13D66D008A93B7 /* LevelDatalayer.m */,
+			);
+			path = level;
+			sourceTree = "<group>";
+		};
+		0397B3041F13D674008A93B7 /* account */ = {
+			isa = PBXGroup;
+			children = (
+				0397B3091F13D697008A93B7 /* Account.h */,
+				0397B30A1F13D697008A93B7 /* Account.m */,
+			);
+			path = account;
+			sourceTree = "<group>";
+		};
+		0397B3051F13D683008A93B7 /* level */ = {
+			isa = PBXGroup;
+			children = (
+				0397B3061F13D691008A93B7 /* Level.h */,
+				0397B3071F13D691008A93B7 /* Level.m */,
+			);
+			path = level;
+			sourceTree = "<group>";
+		};
+		0397B31F1F13D714008A93B7 /* tools_box */ = {
+			isa = PBXGroup;
+			children = (
+				0397B3201F13D727008A93B7 /* tools */,
+			);
+			path = tools_box;
+			sourceTree = "<group>";
+		};
+		0397B3201F13D727008A93B7 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				0397B3211F13D73D008A93B7 /* Tools.h */,
+				0397B3221F13D73D008A93B7 /* Tools.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		0397B3281F13D7DC008A93B7 /* access */ = {
+			isa = PBXGroup;
+			children = (
+				0397B3291F13D7E9008A93B7 /* cell */,
+				0397B32F1F13D7FE008A93B7 /* controller */,
+				036964471F1BCC3E00409520 /* detail */,
+			);
+			path = access;
+			sourceTree = "<group>";
+		};
+		0397B3291F13D7E9008A93B7 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				0397B32A1F13D7F9008A93B7 /* AccessCellTableViewCell.h */,
+				0397B32B1F13D7F9008A93B7 /* AccessCellTableViewCell.m */,
+				0397B32C1F13D7F9008A93B7 /* AccessCellTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		0397B32F1F13D7FE008A93B7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0397B3301F13D80E008A93B7 /* AccessViewController.h */,
+				0397B3311F13D80E008A93B7 /* AccessViewController.m */,
+				0397B3321F13D80E008A93B7 /* AccessViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0397B3351F13D827008A93B7 /* history */ = {
+			isa = PBXGroup;
+			children = (
+				0397B3361F13D83A008A93B7 /* HistoryDataLayer.h */,
+				0397B3371F13D83A008A93B7 /* HistoryDataLayer.m */,
+			);
+			path = history;
+			sourceTree = "<group>";
+		};
+		0397B3391F13D869008A93B7 /* level */ = {
+			isa = PBXGroup;
+			children = (
+				0397B33A1F13D873008A93B7 /* cell */,
+				0397B33C1F13D898008A93B7 /* controller */,
+				0397B33B1F13D88A008A93B7 /* detail */,
+			);
+			path = level;
+			sourceTree = "<group>";
+		};
+		0397B33A1F13D873008A93B7 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				0397B3471F13D8B7008A93B7 /* LevelViewCell.h */,
+				0397B3481F13D8B7008A93B7 /* LevelViewCell.m */,
+				0397B3491F13D8B7008A93B7 /* LevelViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		0397B33B1F13D88A008A93B7 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				0397B3421F13D8AF008A93B7 /* LevelDetails.h */,
+				0397B3431F13D8AF008A93B7 /* LevelDetails.m */,
+				0397B3441F13D8AF008A93B7 /* LevelDetails.xib */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
+		0397B33C1F13D898008A93B7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0397B33D1F13D8A8008A93B7 /* LevelViewController.h */,
+				0397B33E1F13D8A8008A93B7 /* LevelViewController.m */,
+				0397B33F1F13D8A8008A93B7 /* LevelViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0397B34C1F13D913008A93B7 /* history */ = {
+			isa = PBXGroup;
+			children = (
+				0397B34D1F13D924008A93B7 /* History.h */,
+				0397B34E1F13D924008A93B7 /* History.m */,
+			);
+			path = history;
+			sourceTree = "<group>";
+		};
+		0397B3501F13D939008A93B7 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				0397B3511F13D94B008A93B7 /* controller */,
+				05116BD71F2353290020A0FA /* PasswordUpdatingViewController.h */,
+				05116BD81F2353290020A0FA /* PasswordUpdatingViewController.m */,
+				05116BD91F2353290020A0FA /* PasswordUpdatingViewController.xib */,
+				05116BDC1F2353710020A0FA /* DigicodeUpdatingViewController.h */,
+				05116BDD1F2353710020A0FA /* DigicodeUpdatingViewController.m */,
+				05116BDE1F2353710020A0FA /* DigicodeUpdatingViewController.xib */,
+				05D3F5981F2541B70014242B /* UserImageSelectionViewController.h */,
+				05D3F5991F2541B70014242B /* UserImageSelectionViewController.m */,
+				05D3F59A1F2541B70014242B /* UserImageSelectionViewController.xib */,
+			);
+			path = setting;
+			sourceTree = "<group>";
+		};
+		0397B3511F13D94B008A93B7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0397B3521F13D95D008A93B7 /* SettingsViewController.h */,
+				0397B3531F13D95D008A93B7 /* SettingsViewController.m */,
+				0397B3541F13D95D008A93B7 /* SettingsViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0397B3581F13D9AA008A93B7 /* configDataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				05116BD41F23427D0020A0FA /* ConfigDatalayer.h */,
+				05116BD51F23427D0020A0FA /* ConfigDatalayer.m */,
+			);
+			name = configDataLayer;
+			path = config_data_layer;
+			sourceTree = "<group>";
+		};
+		0397B3621F13E1F2008A93B7 /* room */ = {
+			isa = PBXGroup;
+			children = (
+				0397B3631F13E20E008A93B7 /* cell */,
+				0397B3641F13E216008A93B7 /* controller */,
+				0397B3651F13E21D008A93B7 /* detail */,
+			);
+			path = room;
+			sourceTree = "<group>";
+		};
+		0397B3631F13E20E008A93B7 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				0397B36B1F150233008A93B7 /* RoomTableViewCell.h */,
+				0397B36C1F150233008A93B7 /* RoomTableViewCell.m */,
+				0397B36D1F150233008A93B7 /* RoomTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		0397B3641F13E216008A93B7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0397B3661F13E28A008A93B7 /* RoomViewController.h */,
+				0397B3671F13E28A008A93B7 /* RoomViewController.m */,
+				0397B3681F13E28A008A93B7 /* RoomViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0397B3651F13E21D008A93B7 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				036964421F1BC4E600409520 /* DetailRoomViewController.h */,
+				036964431F1BC4E600409520 /* DetailRoomViewController.m */,
+				036964441F1BC4E600409520 /* DetailRoomViewController.xib */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
+		0397B3701F1502F5008A93B7 /* room */ = {
+			isa = PBXGroup;
+			children = (
+				0397B3711F15031A008A93B7 /* Room.h */,
+				0397B3721F15031A008A93B7 /* Room.m */,
+			);
+			path = room;
+			sourceTree = "<group>";
+		};
+		0397B3741F150919008A93B7 /* room */ = {
+			isa = PBXGroup;
+			children = (
+				0397B3751F150949008A93B7 /* RoomDatalayer.h */,
+				0397B3761F150949008A93B7 /* RoomDatalayer.m */,
+			);
+			path = room;
+			sourceTree = "<group>";
+		};
+		0397B3781F151EF9008A93B7 /* access */ = {
+			isa = PBXGroup;
+			children = (
+				0397B3791F151F22008A93B7 /* AccessDatalayer.h */,
+				0397B37A1F151F22008A93B7 /* AccessDatalayer.m */,
+			);
+			path = access;
+			sourceTree = "<group>";
+		};
+		0397B37C1F151F29008A93B7 /* access */ = {
+			isa = PBXGroup;
+			children = (
+				0397B37D1F151F4A008A93B7 /* Access.h */,
+				0397B37E1F151F4A008A93B7 /* Access.m */,
+			);
+			path = access;
+			sourceTree = "<group>";
+		};
+		05116BCD1F2255D00020A0FA /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				05116BCE1F2255F40020A0FA /* AuthDataLayer.h */,
+				05116BCF1F2255F40020A0FA /* AuthDataLayer.m */,
+			);
+			name = auth;
+			sourceTree = "<group>";
+		};
+		0582B0171ECF8D7500E2A108 = {
+			isa = PBXGroup;
+			children = (
+				0582B0221ECF8D7500E2A108 /* Valkyri_iOS */,
+				0582B0211ECF8D7500E2A108 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0582B0211ECF8D7500E2A108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0582B0201ECF8D7500E2A108 /* Valkyri_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0582B0221ECF8D7500E2A108 /* Valkyri_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0397B3281F13D7DC008A93B7 /* access */,
+				0582B0261ECF8D7500E2A108 /* AppDelegate.h */,
+				0582B0271ECF8D7500E2A108 /* AppDelegate.m */,
+				05116BCA1F22536D0020A0FA /* UserInformation.h */,
+				05116BCB1F22536D0020A0FA /* UserInformation.m */,
+				0582B02F1ECF8D7500E2A108 /* Assets.xcassets */,
+				182A4E9A1F0A6D0F00B5CE6F /* dataLayer */,
+				0582B0341ECF8D7500E2A108 /* Info.plist */,
+				0397B2E31F13D5AB008A93B7 /* issue */,
+				0582B0311ECF8D7500E2A108 /* LaunchScreen.storyboard */,
+				0397B3391F13D869008A93B7 /* level */,
+				0397B2F61F13D60D008A93B7 /* login */,
+				0397B2D61F13D395008A93B7 /* menu */,
+				182A4E961F0A6C6B00B5CE6F /* model */,
+				0397B3621F13E1F2008A93B7 /* room */,
+				0397B3501F13D939008A93B7 /* setting */,
+				0582B0231ECF8D7500E2A108 /* Supporting Files */,
+				0397B31F1F13D714008A93B7 /* tools_box */,
+			);
+			path = Valkyri_iOS;
+			sourceTree = "<group>";
+		};
+		0582B0231ECF8D7500E2A108 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0582B0241ECF8D7500E2A108 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		182A4E961F0A6C6B00B5CE6F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0397B37C1F151F29008A93B7 /* access */,
+				0397B3041F13D674008A93B7 /* account */,
+				0397B34C1F13D913008A93B7 /* history */,
+				0397B3051F13D683008A93B7 /* level */,
+				0397B3701F1502F5008A93B7 /* room */,
+			);
+			name = model;
+			path = models;
+			sourceTree = "<group>";
+		};
+		182A4E9A1F0A6D0F00B5CE6F /* dataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				05116BCD1F2255D00020A0FA /* auth */,
+				0397B3781F151EF9008A93B7 /* access */,
+				0397B2DD1F13D3D3008A93B7 /* account */,
+				0397B3581F13D9AA008A93B7 /* configDataLayer */,
+				0397B3351F13D827008A93B7 /* history */,
+				0397B3001F13D655008A93B7 /* level */,
+				0397B3741F150919008A93B7 /* room */,
+			);
+			name = dataLayer;
+			path = datalayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0582B01F1ECF8D7500E2A108 /* Valkyri_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0582B0371ECF8D7500E2A108 /* Build configuration list for PBXNativeTarget "Valkyri_iOS" */;
+			buildPhases = (
+				0582B01C1ECF8D7500E2A108 /* Sources */,
+				0582B01D1ECF8D7500E2A108 /* Frameworks */,
+				0582B01E1ECF8D7500E2A108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Valkyri_iOS;
+			productName = Valkyri_iOS;
+			productReference = 0582B0201ECF8D7500E2A108 /* Valkyri_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0582B0181ECF8D7500E2A108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = valkyri.com;
+				TargetAttributes = {
+					0582B01F1ECF8D7500E2A108 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FWGH929E6A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0582B01B1ECF8D7500E2A108 /* Build configuration list for PBXProject "Valkyri_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0582B0171ECF8D7500E2A108;
+			productRefGroup = 0582B0211ECF8D7500E2A108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0582B01F1ECF8D7500E2A108 /* Valkyri_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0582B01E1ECF8D7500E2A108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0397B36F1F150233008A93B7 /* RoomTableViewCell.xib in Resources */,
+				0582B0331ECF8D7500E2A108 /* LaunchScreen.storyboard in Resources */,
+				0397B3461F13D8AF008A93B7 /* LevelDetails.xib in Resources */,
+				0397B2F51F13D5FC008A93B7 /* DetailIssueViewController.xib in Resources */,
+				05D3F59C1F2541B70014242B /* UserImageSelectionViewController.xib in Resources */,
+				0397B3341F13D80E008A93B7 /* AccessViewController.xib in Resources */,
+				05116BDB1F2353290020A0FA /* PasswordUpdatingViewController.xib in Resources */,
+				0397B2EF1F13D5E5008A93B7 /* IssueViewController.xib in Resources */,
+				0582B0301ECF8D7500E2A108 /* Assets.xcassets in Resources */,
+				0397B36A1F13E28A008A93B7 /* RoomViewController.xib in Resources */,
+				0369644C1F1BCC6200409520 /* DetailAccessViewController.xib in Resources */,
+				0397B32E1F13D7F9008A93B7 /* AccessCellTableViewCell.xib in Resources */,
+				0397B34B1F13D8B7008A93B7 /* LevelViewCell.xib in Resources */,
+				0397B2FC1F13D630008A93B7 /* LoginViewController.xib in Resources */,
+				036964461F1BC4E600409520 /* DetailRoomViewController.xib in Resources */,
+				0397B3561F13D95D008A93B7 /* SettingsViewController.xib in Resources */,
+				0397B3411F13D8A8008A93B7 /* LevelViewController.xib in Resources */,
+				0369644E1F23A1B100409520 /* MenuViewController.xib in Resources */,
+				05116BE01F2353710020A0FA /* DigicodeUpdatingViewController.xib in Resources */,
+				0397B2E91F13D5CD008A93B7 /* IssueTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0582B01C1ECF8D7500E2A108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0397B34F1F13D924008A93B7 /* History.m in Sources */,
+				05116BCC1F22536D0020A0FA /* UserInformation.m in Sources */,
+				0397B3081F13D691008A93B7 /* Level.m in Sources */,
+				0397B3551F13D95D008A93B7 /* SettingsViewController.m in Sources */,
+				0397B36E1F150233008A93B7 /* RoomTableViewCell.m in Sources */,
+				0397B3451F13D8AF008A93B7 /* LevelDetails.m in Sources */,
+				0397B37B1F151F22008A93B7 /* AccessDatalayer.m in Sources */,
+				0582B0281ECF8D7500E2A108 /* AppDelegate.m in Sources */,
+				05116BDF1F2353710020A0FA /* DigicodeUpdatingViewController.m in Sources */,
+				0397B3731F15031A008A93B7 /* Room.m in Sources */,
+				036964451F1BC4E600409520 /* DetailRoomViewController.m in Sources */,
+				0397B32D1F13D7F9008A93B7 /* AccessCellTableViewCell.m in Sources */,
+				05116BD01F2255F40020A0FA /* AuthDataLayer.m in Sources */,
+				0397B34A1F13D8B7008A93B7 /* LevelViewCell.m in Sources */,
+				0397B3031F13D66D008A93B7 /* LevelDatalayer.m in Sources */,
+				0397B2FF1F13D650008A93B7 /* AccountDatalayer.m in Sources */,
+				0397B3331F13D80E008A93B7 /* AccessViewController.m in Sources */,
+				0397B2E11F13D52F008A93B7 /* MenuViewController.m in Sources */,
+				0397B3231F13D73D008A93B7 /* Tools.m in Sources */,
+				0397B2EE1F13D5E5008A93B7 /* IssueViewController.m in Sources */,
+				05D3F59B1F2541B70014242B /* UserImageSelectionViewController.m in Sources */,
+				0397B2F41F13D5FC008A93B7 /* DetailIssueViewController.m in Sources */,
+				0397B37F1F151F4A008A93B7 /* Access.m in Sources */,
+				05116BDA1F2353290020A0FA /* PasswordUpdatingViewController.m in Sources */,
+				0369644B1F1BCC6200409520 /* DetailAccessViewController.m in Sources */,
+				0397B3401F13D8A8008A93B7 /* LevelViewController.m in Sources */,
+				0397B2FB1F13D630008A93B7 /* LoginViewController.m in Sources */,
+				05116BD61F23427D0020A0FA /* ConfigDatalayer.m in Sources */,
+				0582B0251ECF8D7500E2A108 /* main.m in Sources */,
+				0397B30B1F13D697008A93B7 /* Account.m in Sources */,
+				0397B3691F13E28A008A93B7 /* RoomViewController.m in Sources */,
+				0397B3771F150949008A93B7 /* RoomDatalayer.m in Sources */,
+				0397B2E81F13D5CD008A93B7 /* IssueTableViewCell.m in Sources */,
+				0397B3381F13D83A008A93B7 /* HistoryDataLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0582B0311ECF8D7500E2A108 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0582B0321ECF8D7500E2A108 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0582B0351ECF8D7500E2A108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0582B0361ECF8D7500E2A108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0582B0381ECF8D7500E2A108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FWGH929E6A;
+				INFOPLIST_FILE = Valkyri_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.valkyri.Valkyri-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0582B0391ECF8D7500E2A108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FWGH929E6A;
+				INFOPLIST_FILE = Valkyri_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.valkyri.Valkyri-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0582B01B1ECF8D7500E2A108 /* Build configuration list for PBXProject "Valkyri_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0582B0351ECF8D7500E2A108 /* Debug */,
+				0582B0361ECF8D7500E2A108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0582B0371ECF8D7500E2A108 /* Build configuration list for PBXNativeTarget "Valkyri_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0582B0381ECF8D7500E2A108 /* Debug */,
+				0582B0391ECF8D7500E2A108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0582B0181ECF8D7500E2A108 /* Project object */;
+}

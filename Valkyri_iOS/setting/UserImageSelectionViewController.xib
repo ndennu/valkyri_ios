@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserImageSelectionViewController">
+            <connections>
+                <outlet property="imageView" destination="f8d-lL-iDk" id="gQW-jw-mVB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qsy-1J-u73">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aje-T4-2cw" userLabel="Content View">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="614"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f8d-lL-iDk">
+                                    <rect key="frame" x="1" y="28" width="375" height="407"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8HN-Ef-Taj">
+                                    <rect key="frame" x="8" y="452" width="360" height="42"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.36470588240000001" green="0.34901960780000002" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <state key="normal" title="Take photo"/>
+                                    <connections>
+                                        <action selector="takePhotoButtonClick:" destination="-1" eventType="touchUpInside" id="Y3H-by-Elk"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsv-El-ebJ">
+                                    <rect key="frame" x="8" y="502" width="360" height="42"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.36470588240000001" green="0.34901960780000002" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <state key="normal" title="Select photo"/>
+                                    <connections>
+                                        <action selector="selectPhotoButtonClick:" destination="-1" eventType="touchUpInside" id="pRa-B7-aY2"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="613-Tw-xEp">
+                                    <rect key="frame" x="8" y="552" width="360" height="42"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.36470588240000001" green="0.34901960780000002" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <state key="normal" title="Save selected photo"/>
+                                    <connections>
+                                        <action selector="saveSelectedButtonClick:" destination="-1" eventType="touchUpInside" id="0K8-LH-y7w"/>
+                                        <action selector="selectPhotoButtonClick:" destination="-1" eventType="touchUpInside" id="eao-TK-8s8"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="614" id="yzO-m1-Ms5"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="aje-T4-2cw" secondAttribute="bottom" constant="57" id="8rG-3X-yrC"/>
+                        <constraint firstItem="aje-T4-2cw" firstAttribute="leading" secondItem="qsy-1J-u73" secondAttribute="leading" id="IxG-R3-kxf"/>
+                        <constraint firstAttribute="trailing" secondItem="aje-T4-2cw" secondAttribute="trailing" id="WAP-xF-a7Y"/>
+                        <constraint firstItem="aje-T4-2cw" firstAttribute="top" secondItem="qsy-1J-u73" secondAttribute="top" id="sQE-uk-TVh"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="qsy-1J-u73" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="K5A-eM-Irc"/>
+                <constraint firstAttribute="bottom" secondItem="qsy-1J-u73" secondAttribute="bottom" id="Lcu-nf-Qwi"/>
+                <constraint firstAttribute="trailing" secondItem="qsy-1J-u73" secondAttribute="trailing" id="VY2-k5-7S4"/>
+                <constraint firstItem="aje-T4-2cw" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="nig-0P-JN0"/>
+                <constraint firstItem="qsy-1J-u73" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rid-bs-YuD"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+    </objects>
+</document>
